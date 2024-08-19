@@ -1,11 +1,8 @@
 {
-  "name": "universal-connectivity-browser",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "name": "newkind-org",
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
   "dependencies": {
     "@chainsafe/libp2p-gossipsub": "^13.0.0",
     "@chainsafe/libp2p-noise": "^15.0.0",
@@ -48,5 +45,21 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "typescript": "5.4.5"
-  }
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZababurinSergei/newkind-org.git"
+  },
+  "author": "Zababurin Sergei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZababurinSergei/newkind-org/issues"
+  },
+  "homepage": "https://github.com/ZababurinSergei/newkind-org#readme"
 }
